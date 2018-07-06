@@ -1,0 +1,81 @@
+.banner {
+    width: 50%;
+    height: 500px;
+    float: left
+}
+
+.banner img {
+    height: 100%;
+    width: 100%
+}
+
+.descripcion {
+    width: 50%;
+    float: right;
+    height: 100px;
+}
+
+.descripcion p{
+    margin: 5% 5% 5% 5%;
+}
+
+.datos {
+    margin: 0;
+    width: 50%;
+    float: right;
+    height: 400px;
+    padding: 2% 10% 10% 10%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.datos input {
+    width: 100%;
+    margin: 2% 0%;
+    padding: 2%;
+}
+
+.datos textarea{
+    width: 100%;
+    height: 50px;
+    padding: 2%;
+}
+
+
+@media (max-width: 980px) {
+    .banner {
+        width: 100%;
+        height: 300px;
+        box-sizing: border-box;
+    }
+    .descripcion {
+        width: 50%;
+        height: auto;
+    }
+    .datos {
+        margin-top: 1%;
+        width: 50%;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .banner {
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+    }
+    .descripcion {
+        width: 100%;
+        height: auto;
+    }
+    .datos {
+        margin-top: 1%;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+

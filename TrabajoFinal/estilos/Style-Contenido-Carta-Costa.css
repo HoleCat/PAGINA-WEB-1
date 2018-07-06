@@ -1,0 +1,51 @@
+body {
+    background-image: url(../imagenes/imagenes-carta/Costa/fondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+audio {
+    display: none;
+}
+
+@media (max-width: 400px) {
+    
+    body {
+        background-size: 1000px 1000px;
+    }
+}
+
+.main {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    background:  rgba(0,0,0,0.5);
+}
+
+pre {    
+    padding-bottom: 6%;
+}
+
+.main h1 {
+    margin: 0% 2% 0% 2%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+pre h2 {
+    margin: 0% 0% 0% 0%;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 10px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+pre input {
+    margin: 0 0 0 -30px;
+}

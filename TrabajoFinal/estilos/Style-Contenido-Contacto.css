@@ -1,0 +1,35 @@
+body {
+    background-image: url(../imagenes/Delivery/Fondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: orangered;
+    font-size: 40px;
+    text-align: center;   
+}
+
+form {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 25px;
+}
+
+form input {
+    margin: 20px;
+    padding: 20px;
+}
+
+form textarea {
+    padding: 30px;
+}

@@ -1,0 +1,60 @@
+body {
+    background-image: url(../imagenes/Delivery/Fondo.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+main {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+h1 {
+    margin: 20px 0;
+    color: orchid;
+}
+
+section {
+    width: 100%;
+    background: rgba(0,0,0,0.5);   
+}
+
+aside {
+    width: 33.3%;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 15px;
+    background: rgba(0,0,0,0.5);  
+}
+
+aside h2 {
+    margin: 15px;
+    color: orangered;
+}
+
+aside h3 {
+    margin: 10px;
+    color: olive
+}
+
+aside select {
+    padding: 15px;
+}
+
+#button {
+    margin: 5px auto;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+@media (max-width:1100px) {
+    aside {
+        width: 100%;
+    }
+}

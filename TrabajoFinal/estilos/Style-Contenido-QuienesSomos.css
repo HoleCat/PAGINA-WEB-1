@@ -1,0 +1,46 @@
+main {
+    width: 50%;
+    height: 515px;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+}
+
+main h1 {
+    font-family: fantasy;
+    margin-bottom: 50px;
+}
+
+main p {
+    text-align: justify;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 50%;
+    height: 515px;
+    float: right;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+video {
+    margin: auto;
+    width: 100%;
+}
+
+@media (max-width:830px) {
+    main {
+       width: 100%;
+        height: auto;
+    }
+    aside {
+       width: 100%;
+        height: auto;
+    }
+}
